@@ -1,0 +1,135 @@
+* {
+    scroll-behavior:smooth;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height:100%;
+    font-family: Segoe UI, sans-serif;
+    font-size:18px;
+    background-color: #2F283E;
+    color: #D1D7E0;
+}
+
+nav {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:25px 20px;
+    background-color:#423856;
+    color:#C89BEC;
+    z-index: 1000;
+    max-height:7em;
+    overflow:hidden;
+}
+
+#navbar header {
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: Century Gothic;
+    padding-left:0.5em;
+    padding-right:1.35em;
+    text-align:center;
+    flex: 1;
+}
+
+
+.nav-link {
+    color:#DCDBE6;
+    text-decoration:none;
+    padding-left:auto;
+    padding-right:15px;
+    font-weight:bold;
+    line-height:1.7em;
+    white-space: normal; /* Allow wrapping */
+    overflow: hidden; /* Hides overflow */
+    flex: 1 0 auto; /* Prevents links from stretching too much */
+}
+
+.barright {
+    display: flex; /* Use flex to align items */
+    justify-content: flex-end; /* Aligns links to the right */
+    flex-wrap: wrap; /* Allows links to wrap into the next line */
+    max-width: 60%; /* Adjust as necessary to allow for wrapping */
+}
+
+h1 {
+    text-align:center;
+    font-size:4em;
+    padding:30px 20px;
+    color:#8A2BE2/*#9F2BDE*/;
+    font-family:Century Gothic;
+}
+
+.sechead {
+    color:#C89BEC   /*#BF72E9*/;
+    font-family:Century Gothic;
+    font-size:2.0em;
+    padding-bottom:0.7em;
+    padding-left:0.7em;
+    font-weight:bold;
+    padding-top:0.3em;
+}
+
+.divmainsec {
+    padding:10px;
+}
+
+li {
+    padding-bottom:20px;
+}
+
+section {
+    padding-bottom: 20px;
+    padding-right: 15%;
+    scroll-margin-top: 100px;
+}
+
+body {
+    padding-left:40px;
+    padding-top:100px;
+}
+
+code {
+    font-family: consolas;
+    background-color:#B49DBE;
+    color:#2F283E;
+    padding:5;
+    display: inline-block;
+    margin:5px 0px
+}
+
+footer {
+    background-color:#83449C;
+    padding:10px;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;   
+}
+
+.adam {
+    color:#DBB666;
+    font-weight:bold;
+}
+
+.chatGPT {
+    color:#60BDA5;
+    font-weight:bold;
+}
+
+@media screen and (max-width: 797px) {
+  body {
+    padding-top: 134.4px;
+  }
+
+  section {
+  scroll-margin-top: 150px;
+}
+}
