@@ -32,7 +32,7 @@ nav {
 #navbar header {
     font-size: 1.75rem;
     font-weight: bold;
-    font-family: Century Gothic;
+    font-family: Century Gothic, Futura;
     padding-left:0.5em;
     padding-right:1.35em;
     text-align:center;
@@ -64,12 +64,12 @@ h1 {
     font-size:4em;
     padding:30px 20px;
     color:#8A2BE2/*#9F2BDE*/;
-    font-family:Century Gothic;
+    font-family:Century Gothic, Futura;
 }
 
 .sechead {
     color:#C89BEC   /*#BF72E9*/;
-    font-family:Century Gothic;
+    font-family:Century Gothic, Futura;
     font-size:2.0em;
     padding-bottom:0.7em;
     padding-left:0.7em;
@@ -97,7 +97,7 @@ body {
 }
 
 code {
-    font-family: consolas;
+    font-family: consolas, courier new;
     background-color:#B49DBE;
     color:#2F283E;
     padding:5;
